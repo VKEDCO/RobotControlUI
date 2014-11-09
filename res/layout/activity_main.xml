@@ -1,0 +1,66 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.vkedco.mobappdev.activmedia.robot_control_ui.RobotControlUIAct"
+    tools:ignore="MergeRootFrame" >
+
+    <Button
+        android:id="@+id/btn_accelerate"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="40dp"
+        android:text="Accelerate" />
+
+    <Button
+        android:id="@+id/btn_decelerate"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="120dp"
+        android:text="Decelerate" />
+
+   <Button
+       android:id="@+id/btn_left"
+       style="?android:attr/buttonStyleSmall"
+       android:layout_width="103dp"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="80dp"
+       android:text="Left" />
+
+    <Button
+        android:id="@+id/btn_right"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="220dp"
+        android:text="Right" />
+
+    <EditText
+        android:id="@+id/tvIPAddress"
+        android:layout_width="255dp"
+        android:layout_height="41dp"
+        android:text="IP" />
+
+    <Button
+        android:id="@+id/btn_connect"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="250dp"
+        android:text="Connect" />
+
+    <Button
+        android:id="@+id/btn_stop_server"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="200dp"
+        android:text="Stop Server" />
+
+</FrameLayout>
